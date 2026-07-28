@@ -9,7 +9,7 @@ PROFILE_REV="2026-07-13.1"
 REQUIRED_NODE_VERSION="22.19.0"
 
 # Runtime values injected by tnk at execution time:
-#   TNK_ENGINE_RUNTIME   inference runtime provider key (mlxcel, llama)
+#   TNK_ENGINE_RUNTIME   inference runtime provider key (llama)
 
 ENGINE="${TNK_ENGINE_RUNTIME:?TNK_ENGINE_RUNTIME is required}"
 
@@ -18,10 +18,6 @@ case "$ENGINE" in
     llama)
         PROVIDER_KEY="llama-cpp"
         API_KEY="llama"
-        ;;
-    mlxcel)
-        PROVIDER_KEY="mlxcel-default"
-        API_KEY="mlx"
         ;;
     *)
         echo "[ERR] Unknown engine runtime: ${ENGINE}" >&2
@@ -112,16 +108,7 @@ JSON_PROVIDER_KEY="$(printf '%s' "$PROVIDER_KEY" | sed 's/\\/\\\\/g; s/"/\\"/g')
 JSON_API_KEY="$(printf '%s' "$API_KEY" | sed 's/\\/\\\\/g; s/"/\\"/g')"
 
 # Provider-specific compatibility flags
-case "$ENGINE" in
-    mlxcel)
-        COMPAT_JSON=$'      "compat": {
-          "supportsDeveloperRole": false
-        }'
-        ;;
-    *)
-        COMPAT_JSON=""
-        ;;
-esac
+COMPAT_JSON=""
 
 cat > "$HOME/.pi/agent/models.json" << EOF
 {
