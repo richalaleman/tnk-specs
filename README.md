@@ -8,7 +8,7 @@ Configuration and provisioning files for [tnk](https://github.com/richalaleman/t
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![X Follow](https://img.shields.io/twitter/follow/richalaleman?style=social)](https://x.com/richalaleman)
 
-[Structure](#structure) · [Custom Specs](#custom-specs-repo) · [Full Docs](https://tappunk.com/tnk/)
+[Structure](#structure) · [Custom Specs](#custom-specs-repo) · [Full Docs](https://richalaleman.github.io/tnk/)
 </div>
 
 ---
@@ -44,4 +44,4 @@ tnk init --git-url https://github.com/custom/tnk-specs.git
 
 ## Full documentation
 
-<https://tappunk.com/tnk/>
+<https://richalaleman.github.io/tnk/>
