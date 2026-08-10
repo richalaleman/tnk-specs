@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tappunk/.github/refs/heads/main/assets/tnk-specs.webp" alt="tnk-specs" width="280"/>
+  <img src="https://raw.githubusercontent.com/richalaleman/.github/refs/heads/main/assets/tnk-specs.webp" alt="tnk-specs" width="280"/>
 
 # tnk-specs
 
-Configuration and provisioning files for [tnk](https://github.com/tappunk/tnk).
+Configuration and provisioning files for [tnk](https://github.com/richalaleman/tnk).
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![X Follow](https://img.shields.io/twitter/follow/tappunk?style=social)](https://x.com/tappunk)
+[![X Follow](https://img.shields.io/twitter/follow/richalaleman?style=social)](https://x.com/richalaleman)
 
 [Structure](#structure) · [Custom Specs](#custom-specs-repo) · [Full Docs](https://tappunk.com/tnk/)
 </div>
