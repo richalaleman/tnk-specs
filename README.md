@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/richalaleman/.github/refs/heads/main/assets/tnk-specs.webp" alt="tnk-specs" width="280"/>
+  <img src="https://raw.githubusercontent.com/tappunk/.github/refs/heads/main/assets/tnk-specs.webp" alt="tnk-specs" width="280"/>
 
 # tnk-specs
 
